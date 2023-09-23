@@ -1,32 +1,56 @@
-#branco{
-    background-color: rgb(255, 255, 255);
+body {
+    display: grid;
+    grid-template-columns: 1fr; 
+    grid-template-rows: auto;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer"; 
+    grid-gap: 20px;
+    background-color: rgb(209, 171, 250);
+    height: 100vh;
+    margin: 0;
+}
+
+#branco {
+    grid-area: main;
+    background-color: rgb(209, 171, 250);
     color: black;
-    margin-left: 90px;
     border: 20px;
+    margin-left: 80px;
 }
 
-h3{
-    color: rgb(86, 14, 211);
+#cinza {
+    grid-area: header; 
+    background-color: rgb(120, 4, 179);
+    padding: 10px;
+    height: 20px;
+    margin-left: 0px;
 }
 
-
-#roxo{
-   background-color: rgb(198, 146, 255);
+h2 {
+    color: rgb(148, 117, 201);
 }
 
-form{
-    border: 1px solid rgb(155, 10, 232);
+h3 {
+    color: rgb(124, 62, 177);
 }
-#formulario{
-    margin-left: 10px;
+
+form {
+    grid-area: footer; 
+    background-color: rgb(193, 144, 253);
+    border: 1px solid rgb(145, 115, 229);
+    margin-left: 60px;
+    margin-right: 60px;
     text-align: center;
-
 }
 
-input{
-    width: 250px; height: 25px;
-}
-
-textarea {
-    width: 400px; height: 100px;
+input {
+    width: 150px;
+    height: 25px;
+    margin-top: 5px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    background-color: rgb(205, 179, 233);
+    border: 2px solid rgb(112, 0, 223);
 }
