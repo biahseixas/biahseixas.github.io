@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html Lang="pt-br">
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="./exercicio.html">
+<title> Fundamentos da Web </title>
+
+<body>
+    <div id="branco"></div>
+    <h1> Fundamentos da Web</h1>
+    <h3><i>Exercício</i></h3>
+</body>
+
+<div id="azul">
+
+    <main>
+        <ul type="Disc">
+            <li><a href="./exercicio.html"> Retornar</a></li>
+    </main>
+</div>
+
+<h3>Contatos</h3>
+<p>Nesta atividade, você deve desenvolver uma tela de contatos de um site. Considere a natureza dos campos.</p>
+<p> Seus dados devem ser enviados numa requisição HTTP com método POST para a URL http://httpbin.org/post </p>
+<p>Entre em contato conosco!</p>
+
+<form action=" http://httpbin.org/post" method="post"></form>
+<div id=formulario>
+    <p>Nome: <input type="text" value="Digite seu nome"></p>
+    <p>Assunto: <input type="text"></p>
+    <p>Data de ocorrência: <input type="date"></p>
+    <p>Imagem da ocorrência: <input type="file"></p>
+    <p>Telefone: <input type="tel"></p>
+    <p>Email: <input type="email"></p>
+    <p>Mensagem: <input type="text"></p>
+    <label for="estilo">Estilo</label>
+    <select id="estilo" name="Estilo">
+        <option value="academico">Academico</option>
+        <option value="secretaria">Secretária</option>
+        <option value="outros">Outros</option>
+    </select>
+    <br> <button type="button">ADICIONAR</button>
+    <button type="button">LIMPAR</button>
+</div>
