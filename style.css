@@ -1,32 +1,37 @@
-#branco{
-    background-color: rgb(255, 255, 255);
-    color: black;
-    margin-left: 90px;
-    border: 20px;
+body {
+    background-color: #8A2BE2;
+    color: #FFFFFF;
+    font-family: Arial, sans-serif; /
+    margin: 0;
+    padding: 0;
 }
 
-h3{
-    color: rgb(86, 14, 211);
+h1 {
+    font-size: 36px; 
 }
 
-
-#roxo{
-   background-color: rgb(198, 146, 255);
+h2 {
+    font-size: 24px; 
 }
 
-form{
-    border: 1px solid rgb(155, 10, 232);
-}
-#formulario{
-    margin-left: 10px;
-    text-align: center;
-
+p {
+    font-size: 18px; 
 }
 
-input{
-    width: 250px; height: 25px;
+ul {
+    list-style-type: none; 
+    padding: 0;
 }
 
-textarea {
-    width: 400px; height: 100px;
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #DA70D6; 
+    text-decoration: none; 
+}
+
+a:hover {
+    text-decoration: underline; 
 }
