@@ -70,7 +70,7 @@ main {
 .banner-div {
     padding: 20px 20px 0;
     box-sizing: border-box;
-    background-image: url(images/surf.png);
+    background-image: url(surf.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
