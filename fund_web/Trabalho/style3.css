@@ -90,6 +90,7 @@ body {
   }
 
   .intro h4 {
+    font-family: Brush Script MT, Brush Script Std, cursive;
     font-size: 100%;
     flex: 1;
     text-align: right;
