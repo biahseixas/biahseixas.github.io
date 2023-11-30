@@ -97,10 +97,23 @@ body {
   .figure pardudu {
     max-width: 50px;
   }
-  .intro h4 {
+
+   .intro h4 {
+    font-family: Brush Script MT, Brush Script Std, cursive;
     font-size: 75%;
     flex: 1;
-    text-align: center;
+    text-align: right;
+    margin-right: 1000px;
+
+  }
+  .intro h5 {
+      font-family: Courier New, monospace;
+      font-size: 100%;
+      flex: 1;
+      text-align: center;
+
+    }
+
    
 
   }
